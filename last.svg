@@ -30,8 +30,7 @@
             /* color: #e6edf3; */
           }
           .animated-definition text {
-            /* fill: #e6edf3; */
-            color: #ffffff;
+            fill: #e6edf3;
           }
         }
 
