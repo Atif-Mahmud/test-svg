@@ -1,0 +1,103 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          background: #ffffff;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Arial', sans-serif;
+        }
+
+        .entry-box {
+          background: white;
+          border-radius: 10px;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          width: 600px;
+        }
+
+        .word {
+          font-size: 48px;
+          font-weight: bold;
+          color: #333;
+          font-family: 'Comic Neue', 'Arial', sans-serif;
+        }
+
+        .pronunciation {
+          font-size: 20px;
+          color: #666;
+          margin-bottom: 20px;
+        }
+
+        .partofspeech {
+          font-size: 24px;
+          color: #333;
+          font-weight: bold;
+          margin-bottom: 0px;
+        }
+
+        /* .definition { */
+        /*   font-size: 18px; */
+        /*   color: #444; */
+        /*   margin: 10px 0; */
+        /* } */
+        /**/
+        /* .definition-number { */
+        /*   font-weight: bold; */
+        /*   color: #000; */
+        /* } */
+
+        /* Styling for the animated definition */
+        @font-face {
+          font-family: 'Comic Neue';
+          font-style: normal;
+          font-weight: 400;
+          src: url(data:font/truetype;base64, /*encoding ommitted for brevity*/ format('truetype'); /* Insert your base64 font data here */
+        }
+
+        .animated-definition text {
+          font-family: 'Arial', monospace;
+          fill: #333;
+          font-size: 20px;
+          dominant-baseline: middle;
+        }
+      </style>
+
+      <div class="container">
+        <div class="entry-box">
+          <div class="word">honk</div>
+          <div class="pronunciation">/hɒŋk, hɔŋk/</div>
+          <!-- <div class="definition"><span class="definition-number">1</span>. the cry of a goose.</div> -->
+          <!-- Animated definition -->
+          <div class="partofspeech">noun</div>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-25 0 1000 67" width="1000px" height="67px" class="animated-definition">
+            <path id="path0">
+              <animate id="d0" attributeName="d" begin="0s;d1.end" dur="6000ms" fill="remove"
+                values="m0,33.5 h0 ; m0,33.5 h1000 ; m0,33.5 h1000 ; m0,33.5 h0"
+                keyTimes="0;0.66666666666667;0.83333333333333;1" />
+            </path>
+            <text>
+              <textPath xlink:href="#path0">
+                the raucous, resonant sound characteristic of a wild goose.
+              </textPath>
+            </text>
+            <path id="path1">
+              <animate id="d1" attributeName="d" begin="d0.end" dur="6000ms" fill="remove"
+                values="m0,33.5 h0 ; m0,33.5 h1000 ; m0,33.5 h1000 ; m0,33.5 h0"
+                keyTimes="0;0.66666666666667;0.83333333333333;1" />
+            </path>
+            <text>
+              <textPath xlink:href="#path1">
+                the heterogeneous, observable and networked kernel.
+              </textPath>
+            </text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
