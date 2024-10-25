@@ -1,0 +1,147 @@
+<svg fill="none" viewBox="0 0 800 250" width="800" height="250" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @media (prefers-color-scheme: light) {
+          .entry-box {
+            background: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+          }
+          .word {
+            color: #000000;
+          }
+          .pronunciation {
+            color: #666;
+          }
+          .partofspeech {
+            color: #000000;
+          }
+          .animated-definition text {
+            fill: #000000;
+          }
+        }
+
+        @media (prefers-color-scheme: dark) {
+          .entry-box {
+            background: #0D1117;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+          }
+          .word {
+            color: #e6edf3;
+          }
+          .pronunciation {
+            color: #8b949e;
+          }
+          .partofspeech {
+            color: #e6edf3;
+          }
+          .animated-definition text {
+            fill: #e6edf3;
+          }
+        }
+
+        @media (max-width: 640px) {
+          .entry-box {
+            width: calc(100% - 20px) !important;
+            margin: 0 5px;
+            padding: 5px;
+            transform-origin: center;
+            // transform: scale(0.95);
+          }
+          .animated-definition {
+            width: 100% !important;
+            height: auto !important;
+            transform-origin: left center;
+            transform: scale(1.5);
+          }
+        }
+
+        .container {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Segoe UI', 'Noto Sans', 'Arial', sans-serif;
+        }
+        .entry-box {
+          border-radius: 10px;
+          padding: 20px;
+          width: 600px;
+          display: flex;
+          flex-direction: column;
+        }
+        .word {
+          font-size: 48px;
+          font-weight: bold;
+          font-family: 'Comic Neue', 'Arial', sans-serif;
+          line-height: 1.2;
+        }
+        .pronunciation {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+        .partofspeech {
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 0px;
+        }
+        @font-face {
+          font-family: 'Comic Neue';
+          font-style: normal;
+          font-weight: 400;
+          src: url(data:font/truetype;base64, /* excluded for brevity */) format('truetype');
+        }
+        .animated-definition text {
+          font-family: 'Segoe UI', 'Noto Sans', 'Arial', monospace;
+          font-size: 17px;
+          dominant-baseline: middle;
+        }
+        .animated-definition {
+          width: 100%;
+          height: auto;
+          max-width: 1000px;
+        }
+      </style>
+      <div class="container">
+        <div class="entry-box">
+          <div class="word">honk 🪿</div>
+          <div class="pronunciation">/hɒŋk, hɔŋk/</div>
+          <div class="partofspeech">noun</div>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-25 0 1000 67" width="100%" height="67px" class="animated-definition">
+            <path id="path0">
+              <animate id="d0" attributeName="d" begin="0s;d2.end" dur="6000ms" fill="remove"
+                values="m0,33.5 h0 ; m0,33.5 h1000 ; m0,33.5 h1000 ; m0,33.5 h0"
+                keyTimes="0;0.66666666666667;0.83333333333333;1" />
+            </path>
+            <text>
+              <textPath xlink:href="#path0">
+                the raucous, resonant sound characteristic of a wild goose.
+              </textPath>
+            </text>
+            <path id="path1">
+              <animate id="d1" attributeName="d" begin="d0.end" dur="6000ms" fill="remove"
+                values="m0,33.5 h0 ; m0,33.5 h1000 ; m0,33.5 h1000 ; m0,33.5 h0"
+                keyTimes="0;0.66666666666667;0.83333333333333;1" />
+            </path>
+            <text>
+              <textPath xlink:href="#path1">
+                the heterogeneous, observable and networked kernel.
+              </textPath>
+            </text>
+            <path id="path2">
+              <animate id="d2" attributeName="d" begin="d1.end" dur="6000ms" fill="remove"
+                values="m0,33.5 h0 ; m0,33.5 h1000 ; m0,33.5 h1000 ; m0,33.5 h0"
+                keyTimes="0;0.66666666666667;0.83333333333333;1" />
+            </path>
+            <text>
+              <textPath xlink:href="#path2">
+                the highly optimized, nomadic kernel.
+              </textPath>
+            </text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
