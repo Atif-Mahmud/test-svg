@@ -19,16 +19,19 @@
 
         @media (prefers-color-scheme: dark) {
           .word {
-            color: #e6edf3;
+            /* color: #e6edf3; */
+            color: #ffffff;
           }
           .pronunciation {
             color: #8b949e;
           }
           .partofspeech {
-            color: #e6edf3;
+            color: #ffffff;
+            /* color: #e6edf3; */
           }
           .animated-definition text {
-            fill: #e6edf3;
+            /* fill: #e6edf3; */
+            color: #ffffff;
           }
         }
 
