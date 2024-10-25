@@ -1,5 +1,5 @@
 <div style="width: 100%;">
-  <img src="./hello-dynamic.svg" style="width: 100%;" alt="Click to see the source">
+  <img src="./resizing.svg" style="width: 100%;" alt="Click to see the source">
 </div>
 
 # honk :goose:
