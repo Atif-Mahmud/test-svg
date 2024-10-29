@@ -8,7 +8,7 @@
 
 **parcel** is an experimental virtual machine for WASM written in zig.
 
-The honk is heavily inspired by [wamr](https://github.com/bytecodealliance/wasm-micro-runtime).
+parcel is heavily inspired by [wamr](https://github.com/bytecodealliance/wasm-micro-runtime).
 
 ## how to get started
 
